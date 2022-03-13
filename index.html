@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Fredoka:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calc.css">
+    <title>Online Calculator</title>
+</head>
+<body>
+ <img src="m1.jpg" alt="background-image">
+  <h2><i><u>Calculator </u></i>&#128425</h2>
+   <h3>Hey Guys This is the Calculator Website Made by me Using Pure HTML and CSS Only.. :)&#128153&#128153<br>-Gunalan.G</h3>
+   <form action="" name="calc">
+       <input type="text" id="in" name="input">
+       <br>
+       <input type="button" class="btn" value="AC" onclick="calc.input.value=''" >
+       <input type="button" class="btn" value="&#9003" onclick="calc.input.value=calc.input.value.substring(0,calc.input.value.length*1-1)">
+       <input type="button" class="btn" value="00" onclick="calc.input.value+='00'">
+       <input type="button" class="btn" value="&#247" onclick="calc.input.value+='/'">
+       <br>
+       <br>
+       <input type="button" class="btn" value="7" onclick="calc.input.value+='7'">
+       <input type="button" class="btn" value="8" onclick="calc.input.value+='8'">
+       <input type="button" class="btn" value="9" onclick="calc.input.value+='9'">
+       <input type="button" class="btn" value="&#215" onclick="calc.input.value+='*'">
+       <br>
+       <br>
+       <input type="button" class="btn" value="4" onclick="calc.input.value+='4'">
+       <input type="button" class="btn" value="5" onclick="calc.input.value+='5'">
+       <input type="button" class="btn" value="6" onclick="calc.input.value+='6'">
+       <input type="button" class="btn" value="-" onclick="calc.input.value+='-'">
+       <br>
+       <br>
+       <input type="button" class="btn" value="1" onclick="calc.input.value+='1'">
+       <input type="button" class="btn" value="2" onclick="calc.input.value+='2'">
+       <input type="button" class="btn" value="3" onclick="calc.input.value+='3'">
+       <input type="button" class="btn" value="+" onclick="calc.input.value+='+'">
+       <br>
+       <br>
+       <input type="button" class="btn" value="0" onclick="calc.input.value+='0'">
+       <input type="button" class="btn" value="." onclick="calc.input.value+='.'">
+       <input type="button" class="btn" value="=" onclick="calc.input.value=eval(calc.input.value)">
+    </form>
+</body>
+</html>
