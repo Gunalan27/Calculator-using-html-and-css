@@ -49,6 +49,7 @@ h3
     width: 25%;
     background-color:#ADD8E6;
     overflow-y:scroll;
+    scrollbar-width:none;
 }
 form
 {
